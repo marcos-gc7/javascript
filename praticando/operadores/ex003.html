@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação Par ou Ímpar</title>
+    <style>
+        body {
+            background-color: rgb(94, 17, 94);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var numero = Number(window.prompt('Digite um número:'));
+
+        document.write(
+            numero % 2 === 0 ? '✅ O número é Par.' : '❌ O número é Ímpar.'
+        );
+    </script>
+
+</body>
+</html>
